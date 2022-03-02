@@ -19,9 +19,9 @@ function compute()
     var interest = principal * years * rate / 100;
 
     /*Response message when given all required inputs*/
-    document.getElementById("result").innerHTML='If you deposit $<span>'+principal+ '</span> \
-    at an interest rate of</br> <span>'+rate+' %</span> \
-    You will receive an interest amount of <span> $'+ interest + ',</span>\
+    document.getElementById("result").innerHTML='If you deposit $<span class="colors">'+principal+ '</span> \
+    at an interest rate of</br> <span class="colors">'+rate+' %</span> \
+    You will receive an interest amount of <span class="colors"> $'+ interest + ',</span>\
     in the year <spans>'+year+'</span>';
 
     } else
